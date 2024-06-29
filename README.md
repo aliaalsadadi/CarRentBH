@@ -1,2 +1,2 @@
-# CarRentBH
-car rental market place.
+# RentRoamBH
+This platform enables users to both list their cars for rent and browse available cars for rental purposes. The app provides a user-friendly interface for managing car listings, rental transactions, and user profiles. Built with Flutter's powerful UI toolkit, RentRoamBH offers a seamless experience across iOS and Android platforms, utilizing Firebase services for real-time database management and authentication. Whether you're a car owner looking to monetize your vehicle or a user seeking flexible and reliable car rental options, RentRoamBH is designed to cater to your needs efficiently and securely.
