@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+message Car {
+    string id = 1;
+    string photoUrl = 2;
+    string description = 3;
+}
+message Query {
+    string Query = 1;
+}
+message AddResponse {
+    bool added = 1;
+}
+message SearchResponse {
+    repeated string ids = 1;
+}
+service ChromaService {
+    rpc AddCar (Car) returns (AddResponse);
+    rpc SearchCars (Query) returns (SearchResponse);
+}

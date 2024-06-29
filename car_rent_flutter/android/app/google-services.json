@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "399489229730",
+    "project_id": "rentroam-1d9ba",
+    "storage_bucket": "rentroam-1d9ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399489229730:android:6b2ed306bfaae9f58508fb",
+        "android_client_info": {
+          "package_name": "com.sadadi.dev.car_rent_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAISsovfV6s3i3c_DvslPQQoBvuKQ0hM10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
