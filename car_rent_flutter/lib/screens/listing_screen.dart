@@ -21,7 +21,7 @@ class _ListingScreenState extends State<ListingScreen> {
                 isLessThan: Timestamp.fromDate(DateTime.now()))
             .where("availabilityEndDate",
                 isGreaterThan: Timestamp.fromDate(DateTime.now()))
-            .where("isRented", isEqualTo: true)
+            .where("isRented", isEqualTo: false)
             .snapshots(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
